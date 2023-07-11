@@ -44,3 +44,22 @@ body{
     height: 170px;
     transform: scaleX(-1);
 }
+.cloud{
+    width: 2000px;
+    position: absolute;
+    bottom: -700px;
+    
+}
+.retry{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 150px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+    background-color: aqua;
+    visibility: hidden;
+}
